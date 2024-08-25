@@ -32,6 +32,8 @@ def send_sms(to_phone, message):
         to=to_phone
     )
     # write something
+def hello():
+    print("hi")
 
 @app.route('/missed_call', methods=['POST'])
 def missed_call():
