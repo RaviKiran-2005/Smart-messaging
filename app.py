@@ -36,6 +36,10 @@ def someFunction():
     print('say hello')
     print('hey')
 
+def someOtherFunction():
+    print('say hello')
+    print('hey')
+
 @app.route('/missed_call', methods=['POST'])
 def missed_call():
     if 'phone' not in request.form:
